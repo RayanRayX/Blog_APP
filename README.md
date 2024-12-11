@@ -67,10 +67,9 @@ Make sure you have the following installed:
 
 ## Usage
 Once the app is running, you can:
-- Register and log in to your account.
 - Create new blog posts.
 - View a list of blog posts on the home page.
-- Edit or delete any blog posts you’ve created.
+- delete any blog posts you’ve created.
 
 ## Contributing
 
@@ -86,6 +85,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 If you have any questions, feel free to reach out to:
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Email**: [riannerayrelevo04@gmail.com](mailto:riannerayrelevo04@gmail.com)
 - **GitHub**: [RayanRayX](https://github.com/RayanRayX)
 
