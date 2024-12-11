@@ -11,7 +11,7 @@ A simple blog application built using the **MERN stack** (MongoDB, Express, Reac
 ## Tech Stack
 - **MongoDB**: NoSQL database for storing blog posts and user data.
 - **Express**: Web framework for Node.js.
-- **React**: Front-end library for building the user interface.
+- **EJS**: Front-end library for building the user interface.
 - **Node.js**: JavaScript runtime for the server.
 
 ## Installation
