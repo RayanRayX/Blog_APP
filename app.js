@@ -7,11 +7,12 @@ const blogRoutes = require('./routes/blogRoutes.js')
 const app = express();
 
 //connect to mongodb
-const dbURI = 'mongodb+srv://userRianne:userRay1234@cluster0.bdvbq.mongodb.net/Node&Express?retryWrites=true&w=majority&appName=Cluster0'
+// Connect to MongoDB using the environment variable
+const dbURI = process.env.DB_URI;
 mongoose.connect(dbURI)
   .then((result) => app.listen(3000))
   .catch((err) => console.log(err));
-
+  
 //register view engine
 app.set('view engine', 'ejs');
 

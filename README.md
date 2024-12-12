@@ -23,39 +23,55 @@ Make sure you have the following installed:
 
 ### Steps to Run the Project Locally
 
-1. Clone the repository:
+1. **Clone the repository**:
     ```bash
     git clone https://github.com/RayanRayX/Blog_APP.git
     cd Blog_APP
     ```
 
-2. Install server dependencies:
+2. **Install server dependencies**:
     ```bash
-    cd server
     npm install
     ```
 
-3. Set up environment variables:
-    - The MongoDB connection string is already included inside the `app.js` file.
-    - If you'd like to add other environment variables, create a `.env` file inside the `server` folder. For example:
-        ```
-        JWT_SECRET=your_secret_key
-        ```
+3. **Set up environment variables**:
+    - Install `dotenv` to manage environment variables:
+      ```bash
+      npm install dotenv
+      ```
+    - Create a `.env` file in the project root directory and add your MongoDB connection string. For example:
+      ```
+      DB_URI=your_mongodb_connection_string
+      ```
+    - Replace `your_mongodb_connection_string` with your actual MongoDB URI (from MongoDB Atlas or your local setup).
 
-4. Start the server:
-    - To run the server, use **`nodemon`** to start the app. This will automatically restart the server on code changes.
-    ```bash
-    nodemon app.js
-    ```
+4. **Start the server**:
+    - Use **`nodemon`** to start the app. This will automatically restart the server when code changes are detected:
+      ```bash
+      nodemon app.js
+      ```
 
-5. Visit the app in your browser at:  
-    [http://localhost:5000](http://localhost:5000)
+5. **Visit the app**:
+    - Once the server is running, open your browser and visit:
+      [http://localhost:3000](http://localhost:3000)
+
+---
 
 ## Usage
+
 Once the app is running, you can:
 - Create new blog posts.
 - View a list of blog posts on the home page.
 - Delete any blog posts you’ve created.
+
+---
+
+## Environment Variables
+
+To run the project, you need to set up environment variables:
+- Create a `.env` file in the root directory of the project.
+- Use the `.env.example` file as a reference. Add your own MongoDB connection string:
+- 
 
 ## Contributing
 
