@@ -71,7 +71,6 @@ Once the app is running, you can:
 To run the project, you need to set up environment variables:
 - Create a `.env` file in the root directory of the project.
 - Use the `.env.example` file as a reference. Add your own MongoDB connection string:
-- 
 
 ## Contributing
 
