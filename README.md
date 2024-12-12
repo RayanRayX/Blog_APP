@@ -1,6 +1,6 @@
 # Blog_APP
 
-A simple blog application built using the **MERN stack** (MongoDB, Express, React, Node.js). This application allows users to create, view, and delete blog posts.
+A simple blog application built using **Node.js** and **Express**. This application allows users to create, view, and delete blog posts. It uses MongoDB for data storage and does not include a separate client-side (React) setup.
 
 ## Features
 - Create blog posts
@@ -11,7 +11,6 @@ A simple blog application built using the **MERN stack** (MongoDB, Express, Reac
 ## Tech Stack
 - **MongoDB**: NoSQL database for storing blog posts and user data.
 - **Express**: Web framework for Node.js.
-- **EJS**: Front-end library for building the user interface.
 - **Node.js**: JavaScript runtime for the server.
 
 ## Installation
@@ -36,40 +35,27 @@ Make sure you have the following installed:
     npm install
     ```
 
-3. Install client dependencies:
-    ```bash
-    cd ../client
-    npm install
-    ```
-
-4. Set up environment variables:
-    - Create a `.env` file in the `server` folder and add your MongoDB connection string and any other required environment variables.
-    - Example:
+3. Set up environment variables:
+    - The MongoDB connection string is already included inside the `app.js` file.
+    - If you'd like to add other environment variables, create a `.env` file inside the `server` folder. For example:
         ```
-        MONGODB_URI=mongodb://localhost:27017/blogapp
         JWT_SECRET=your_secret_key
         ```
 
-5. Start the server:
+4. Start the server:
+    - To run the server, use **`nodemon`** to start the app. This will automatically restart the server on code changes.
     ```bash
-    cd ../server
-    npm start
+    nodemon app.js
     ```
 
-6. Start the client:
-    ```bash
-    cd ../client
-    npm start
-    ```
-
-7. Visit the app in your browser at:  
-    [http://localhost:3000](http://localhost:3000)
+5. Visit the app in your browser at:  
+    [http://localhost:5000](http://localhost:5000)
 
 ## Usage
 Once the app is running, you can:
 - Create new blog posts.
 - View a list of blog posts on the home page.
-- delete any blog posts you’ve created.
+- Delete any blog posts you’ve created.
 
 ## Contributing
 
