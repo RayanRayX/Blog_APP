@@ -10,7 +10,7 @@ This is the frontend part of the Blog App, built with **React**. It communicates
 ## Tech Stack
 - **React**: JavaScript library for building user interfaces.
 - **React Router**: For navigation between different pages in the app.
-- **Axios**: For making HTTP requests to the backend API.
+- **Fetch**: For making HTTP requests to the backend API.
 
 ## Installation
 
